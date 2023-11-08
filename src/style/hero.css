@@ -1,0 +1,53 @@
+.hero__container {
+  background-color: #00c79c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9.6rem 0;
+
+  .hero__avatar-container {
+    background-color: #2d3b51;
+    border-radius: 50%;
+    padding: 3rem;
+    margin-bottom: 4.8rem;
+
+    .hero__avatar {
+      border-radius: 50%;
+      width: 24rem;
+      height: 24rem;
+    }
+  }
+
+  .hero__title {
+    font-size: 6.4rem;
+  }
+
+  .hero__divider {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2.4rem 0;
+
+    .hero__divider-line {
+      width: 100%;
+      max-width: 7rem;
+      height: 0.25rem;
+      border-radius: 1.6rem;
+      margin: 1rem;
+      background-color: white;
+    }
+
+    .hero__divider-icon {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+  }
+
+  .hero__subtitle {
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+  }
+}

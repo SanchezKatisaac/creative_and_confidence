@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #2d3b51;
+  color: white;
+
+  .header__logo {
+    width: 80px;
+    height: 80px;
+    margin: 0 30px;
+  }
+
+  .header__links{
+    display: flex;
+  }
+
+  .header__links-option {
+    margin: 0 20px;
+  }
+}
