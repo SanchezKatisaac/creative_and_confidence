@@ -1,4 +1,3 @@
-import '../style/hero.css'
 import Star from '../img/star.svg'
 import Avatar from '../img/woman-avatar.svg'
 
